@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://AlekseyYarina.github.io/goit-react-hw-01-components/",
   "dependencies": {
+    "fs": "^0.0.1-security",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1"
