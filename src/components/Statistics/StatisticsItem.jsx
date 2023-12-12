@@ -1,8 +1,10 @@
+import css from './Statistics.module.css';
+
 const StatisticsItem = ({ label, percentage }) => {
   return (
-    <li className="item">
-      <span className="label">{label}</span>
-      <span className="percentage">{percentage}</span>
+    <li className={css.item}>
+      <span className={css.label}>{label}</span>
+      <span className={css.percentage}>{percentage}%</span>
     </li>
   );
 };
