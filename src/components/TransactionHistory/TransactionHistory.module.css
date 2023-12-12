@@ -1,0 +1,40 @@
+.transactionHistory {
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.transactionThead th {
+  line-height: 50px;
+  background-color: #20b2aa;
+  color: azure;
+  font-size: 14px;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.transactionTbody th,
+.transactionTbody td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  color: #808080;
+  line-height: 40px;
+}
+
+.transactionTbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.transactionTbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.transactionTbody tr:hover {
+  background-color: #e0e0e0;
+}
