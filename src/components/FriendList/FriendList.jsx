@@ -1,8 +1,10 @@
+import css from './FriendList.module.css';
+
 const { FriendListItem } = require('./FriendListItem');
 
 const FriendList = ({ friends }) => {
   return (
-    <ul class="friend-list">
+    <ul className={css.friendList}>
       {friends.map(item => (
         <FriendListItem
           key={item.id}
